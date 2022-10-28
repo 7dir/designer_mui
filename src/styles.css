@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+}
+
+.flex-cont {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.flex-item {
+  /* width: 100%; */
+}
+
+.aside {
+  /* background-color: chocolate; */
+  /* justify-content: center; */
+  flex-grow: 1;
+  border-right: 1px solid grey;
+}
+.main {
+  flex-grow: 4;
+  /* background-color: cornflowerblue; */
+}
+
+.item {
+  /* width: 100%; */
+  /* height: 3em; */
+  margin: 0.4em;
+  padding: 0.4em;
+  border: 1px solid grey;
+  align-self: center;
+}
